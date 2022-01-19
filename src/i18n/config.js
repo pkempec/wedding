@@ -2,8 +2,8 @@ import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
 
 i18n.use(initReactI18next).init({
-  fallbackLng: 'ru',
-  lng: 'ru',
+  fallbackLng: 'sk',
+  lng: 'sk',
   resources: {
     sk: {
       translations: require('./locales/sk/translations.json')

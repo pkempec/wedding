@@ -1,7 +1,20 @@
 {
-  "wedding": "Už čoskoro ...",
-  "days": "Dní",
-  "hours": "Hodín",
-  "minutes": "Minút",
-  "seconds": "Sekúnd"
+  "intro": {
+    "name": "Daria & Patrik",
+    "message": "berieme sa",
+    "date": "21. Mája 2022 o 15:00"
+  },
+  "colors": {
+    "title": "Farby Svadby"
+  },
+  "info": {
+    "message": "Radšej ako kvet príjmeme výherný žreb."
+  },
+  "counter" : {
+    "wedding": "Už čoskoro ...",
+    "days": "Dní",
+    "hours": "Hodín",
+    "minutes": "Minút",
+    "seconds": "Sekúnd"
+  }
 }

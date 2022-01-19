@@ -1,0 +1,19 @@
+.lang-link-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: 'DancingScript';
+  font-size: 20px;
+}
+.lang {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  padding-top: 10px;
+}
+
+.lang-link-button:hover {
+  text-decoration: underline;
+}

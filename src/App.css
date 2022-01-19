@@ -1,21 +1,23 @@
-.content {
-  text-align: center;
+.app {
+  background-image: url("../public/leaf.png");
+  background-repeat: no-repeat, repeat;
+  background-size: 350px;
+  font-family: 'DancingScript';
 }
 
-.link-button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  text-decoration: none;
-}
-.lang {
-  width: 100%;
-  display:         flex;
-  flex-wrap:       wrap;
-  justify-content: flex-end;
-  padding-top: 10px;
+@media only screen and (max-width: 1300px) {
+  .app {
+    background-size: 250px;
+  }
 }
 
-.link-button:hover {
-  text-decoration: underline;
+@media only screen and (max-width: 860px) {
+  .app {
+    background-size: 100px;
+  }
+}
+
+@font-face {
+  font-family: 'DancingScript';
+  src: url('../public/fonts/dancing-script/DancingScript-Regular.ttf')  format('truetype');
 }
