@@ -1,7 +1,8 @@
 .app {
   background-image: url("../public/leaf.png");
-  background-repeat: no-repeat, repeat;
+  background-repeat: no-repeat;
   background-size: 350px;
+  background-position: 15% 0%;
   font-family: 'DancingScript';
 }
 
@@ -11,8 +12,16 @@
   }
 }
 
-@media only screen and (max-width: 860px) {
+@media only screen and (max-width: 1140px) {
   .app {
+    background-position: 5% 0%;
+    background-size: 250px;
+  }
+}
+
+@media only screen and (max-width: 940px) {
+  .app {
+    background-position: 5% 0%;
     background-size: 100px;
   }
 }
