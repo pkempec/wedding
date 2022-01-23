@@ -5,8 +5,11 @@ import Colors from './components/Colors/Colors';
 import Info from './components/Info/Info';
 import Language from './components/Language/Language';
 import Location from './components/Location/Location';
+import React, { useState } from 'react';
 
 const App = () => {
+
+  const [fontClass, setFontClass] = useState('svk-font');
 
   const center = {lat: 48.705705, lng: 21.823010};
   const church = { lat: 48.623193, lng: 21.720706 };
@@ -14,8 +17,8 @@ const App = () => {
   const zoom = 10;
 
   return (
-    <div className='app'>
-      <Language />
+    <div className={'app backround-leaf ' + fontClass}>
+      <Language setFontClass={setFontClass} />
       <Intro />
       <Colors />
       <Info />

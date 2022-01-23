@@ -1,39 +1,51 @@
-.app {
-  background-image: url("../public/leaf.png");
+.backround {
+  background: url("../public/background.png") no-repeat 
+    center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.backround-leaf {
+  background-image: url("../public/leaf-color-1.png");
   background-repeat: no-repeat;
-  background-size: 350px;
+  background-size: 500px;
   background-position: 15% 0%;
-  font-family: 'DancingScript';
 }
 
-@media only screen and (max-width: 1300px) {
-  .app {
-    background-size: 250px;
+@media only screen and (max-width: 700px) {
+  .backround-leaf {
+    background-size: 300px;
   }
 }
 
-@media only screen and (max-width: 1140px) {
-  .app {
-    background-position: 5% 0%;
-    background-size: 250px;
-  }
-}
-
-@media only screen and (max-width: 940px) {
-  .app {
-    background-position: 5% 0%;
+@media only screen and (max-width: 400px) {
+  .backround-leaf {
     background-size: 200px;
   }
 }
 
-@media only screen and (max-width: 700px) {
-  .app {
-    background-position: 5% 0%;
-    background-size: 100px;
-  }
+.sk-font {
+  /* font-family: 'DancingScript'; */
+  font-family: 'CaveatScript';
+}
+
+.ru-font {
+  /* font-family: 'BadScript'; */
+  font-family: 'CaveatScript';
 }
 
 @font-face {
   font-family: 'DancingScript';
   src: url('../public/fonts/dancing-script/DancingScript-Regular.ttf')  format('truetype');
+}
+
+@font-face {
+  font-family: 'BadScript';
+  src: url('../public/fonts/bad-script/BadScript-Regular.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'CaveatScript';
+  src: url('../public/fonts/caveat/Caveat-VariableFont_wght.ttf')  format('truetype');
 }

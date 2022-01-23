@@ -1,14 +1,14 @@
 {
   "intro": {
-    "name": "Daria & Patrik",
-    "message": "berieme sa",
-    "date": "21. Mája 2022 o 15:00"
+    "name": "Дарья & Патрик",
+    "message": "Свадьба состоится",
+    "date": "21 мая 2022 в 15:00"
   },
   "colors": {
-    "title": "Farby Svadby"
+    "title": "Цвета свадьбы"
   },
   "info": {
-    "message": "Radšej ako kvet príjmeme výherný žreb."
+    "message": "Мы будем рады, если вместо букетов вы подарите нам лотерейный билет"
   },
   "counter": {
     "wedding": "Уже скоро ...",

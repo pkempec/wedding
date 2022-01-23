@@ -3,9 +3,8 @@
   border: none;
   cursor: pointer;
   text-decoration: none;
-  font-family: 'DancingScript';
-  font-size: 20px;
 }
+
 .lang {
   width: 100%;
   display: flex;

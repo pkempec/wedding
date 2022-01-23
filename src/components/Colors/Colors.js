@@ -11,6 +11,7 @@ const Colors = () => {
       <span className='colors-circle colors-circle-2'/>
       <span className='colors-circle colors-circle-3'/>
       <span className='colors-circle colors-circle-4'/>
+      <span className='colors-circle colors-circle-5'/>
     </div>
   )
 };

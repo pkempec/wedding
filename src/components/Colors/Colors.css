@@ -5,29 +5,42 @@
 
 .colors-circle {
   display: inline-block;
-  width: 50px;
-  height: 50px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
   border-style: solid;
-  border-width: 5px;
+  border-width: 1px;
   pointer-events:none;
   border-color: Black;
   margin-left: 15px;
   margin-right: 15px;
 }
 
+@media only screen and (max-width: 530px) {
+  .colors-circle {
+    width: 60px;
+    height: 60px;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+}
+
 .colors-circle-1 {
-  background-color: yellow;
+  background-color: #F8F7F8;
 }
 
 .colors-circle-2 {
-  background-color: orange;
+  background-color: #E6C0B7;
 }
 
 .colors-circle-3 {
-  background-color: pink;
+  background-color: #A9907E;
 }
 
 .colors-circle-4 {
-  background-color: violet;
+  background-color: #6C7E55;
+}
+
+.colors-circle-5 {
+  background-color: #053E14;
 }
