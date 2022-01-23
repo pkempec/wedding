@@ -17,7 +17,7 @@ const App = () => {
   const zoom = 10;
 
   return (
-    <div className={'app backround-leaf ' + fontClass}>
+    <div className={'app backround ' + fontClass}>
       <Language setFontClass={setFontClass} />
       <Intro />
       <Colors />

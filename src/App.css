@@ -1,28 +1,39 @@
 .backround {
-  background: url("../public/background.png") no-repeat 
-    center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background: url("../public/leaf-cut.png"), url("../public/background.png");
+  background-repeat: no-repeat;
+  background-position: 15% 0%, center center;
+  background-size: 500px,  cover;
 }
 
-.backround-leaf {
-  background-image: url("../public/leaf-color-1.png");
-  background-repeat: no-repeat;
-  background-size: 500px;
-  background-position: 15% 0%;
+@media only screen and (max-width: 1600px) {
+  .backround {
+    background-size: 400px, cover;
+  }
 }
+
+@media only screen and (max-width: 1400px) {
+  .backround {
+    background-size: 300px, cover;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .backround {
+    background-position: 5% 0%, center center;
+    background-size: 300px, cover;
+  }
+}
+
 
 @media only screen and (max-width: 700px) {
-  .backround-leaf {
-    background-size: 300px;
+  .backround {
+    background-size: 200px, cover;
   }
 }
 
 @media only screen and (max-width: 400px) {
-  .backround-leaf {
-    background-size: 200px;
+  .backround {
+    background-size: 150px, cover;
   }
 }
 
