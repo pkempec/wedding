@@ -4,17 +4,15 @@
   margin-right: 30px;
 }
 .intro-names {
-  font-size: 70px;
+  font-size: 50px;
+  margin-bottom: 15px;
 }
 .intro-message {
-  font-size: 40px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-size: 30px;
 }
 .intro-date {
-  font-size: 50px;
-}
-
-@media only screen and (max-width: 650px) {
-  .intro-names {
-    word-spacing: 9999999px;
-  }
+  margin-top: 0px;
+  font-size: 30px;
 }

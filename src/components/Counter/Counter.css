@@ -5,3 +5,11 @@
   margin-left: 30px;
   margin-right: 30px;
 }
+
+.counter-message {
+  margin-bottom: 0px;
+}
+
+.counter-timer {
+  font-size: 20px;
+}

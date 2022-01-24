@@ -11,15 +11,15 @@ const Counter = () => {
     if (completed) {
       return <div/>;
     } else {
-      return <span>{days} {t('counter.days')} {hours} {t('counter.hours')} {minutes} {t('counter.minutes')} {seconds} {t('counter.seconds')}</span>;
+      return <span className='counter-timer'>{days} {t('counter.days')} {hours} {t('counter.hours')} {minutes} {t('counter.minutes')} {seconds} {t('counter.seconds')}</span>;
     }
   };
 
   return (
     <div className='counter-content'>
-      <p>{t('counter.wedding')}</p>
+      <p className='counter-message'>{t('counter.message')}</p>
       {/* 27. marec zmena castu +1h, dovtedy sa zda ze cas ide zle o -1h */}
-      <Countdown date={'2022-05-21T15:00:00'} renderer={counter} />
+      <Countdown date={'2022-05-21T15:00:00'} renderer={counter}/>
     </div>
   );
 }

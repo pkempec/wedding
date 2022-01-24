@@ -29,8 +29,8 @@ const Language = ({setFontClass}) => {
 
   return (
     <div className='lang'>
-      <button onClick={changeLanguage} value='sk' className='lang-link-button'>Slovensky</button>
-      <button onClick={changeLanguage} value='ru'className='lang-link-button'>Русский</button>
+      <button onClick={changeLanguage} value='sk' className='lang-link-button'>SK</button>
+      <button onClick={changeLanguage} value='ru'className='lang-link-button'>RU</button>
     </div>
   );
 };
