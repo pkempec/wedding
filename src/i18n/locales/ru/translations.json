@@ -13,8 +13,15 @@
   "counter": {
     "message": "Уже скоро ...",
     "days": "Дней",
+    "dayss": "Дней",
     "hours": "Часов",
+    "hourss": "Часов",
+    "hoursss": "Часов",
     "minutes": "Минут",
-    "seconds": "Секунд"
+    "minutess": "Минут",
+    "minutesss": "Минут",
+    "seconds": "Секунд",
+    "secondss": "Секунд",
+    "secondsss": "Секунд"
   }
 }

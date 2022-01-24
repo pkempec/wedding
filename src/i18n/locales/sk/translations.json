@@ -13,8 +13,15 @@
   "counter" : {
     "message": "Už čoskoro ...",
     "days": "Dní",
+    "dayss": "Deň",
     "hours": "Hodín",
+    "hourss": "Hodiny",
+    "hoursss": "Hodina",
     "minutes": "Minút",
-    "seconds": "Sekúnd"
+    "minutess": "Minúty",
+    "minutesss": "Minúta",
+    "seconds": "Sekúnd",
+    "secondss": "Sekundy",
+    "secondsss": "Sekunda"
   }
 }

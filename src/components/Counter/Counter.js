@@ -11,7 +11,29 @@ const Counter = () => {
     if (completed) {
       return <div/>;
     } else {
-      return <span className='counter-timer'>{days} {t('counter.days')} {hours} {t('counter.hours')} {minutes} {t('counter.minutes')} {seconds} {t('counter.seconds')}</span>;
+      let tDays = t('counter.days');
+      let tHours = t('counter.hours');
+      let tMinutes = t('counter.minutes');
+      let tSeconds = t('counter.seconds');
+      if (days === 1) {
+        tDays = t('counter.dayss');
+      }
+      if (hours < 5 && hours > 1) {
+        tHours = t('counter.hourss');
+      } else if (hours === 1) {
+        tHours = t('counter.hoursss');
+      }
+      if (minutes < 5 && minutes > 1) {
+        tMinutes = t('counter.minutess');
+      } else if (minutes === 1) {
+        tMinutes = t('counter.minutesss');
+      }
+      if (seconds < 5 && seconds > 1) {
+        tSeconds = t('counter.secondss');
+      } else if (seconds === 1) {
+        tSeconds = t('counter.secondsss');
+      }
+      return <span className='counter-timer'>{days} {tDays} {hours} {tHours} {minutes} {tMinutes} {seconds} {tSeconds}</span>;
     }
   };
 
