@@ -5,6 +5,7 @@ import Colors from './components/Colors/Colors';
 import Info from './components/Info/Info';
 import Language from './components/Language/Language';
 import Location from './components/Location/Location';
+import Program from './components/Program/Program';
 import React, { useState } from 'react';
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
       <Intro />
       <Colors />
       <Info />
+      <Program />
       <Counter />
       <Location center={center} church={church} celebration={celebration} zoom={zoom}/>
     </div>

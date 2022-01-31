@@ -14,6 +14,7 @@
     "message": "Už čoskoro ...",
     "days": "Dní",
     "dayss": "Deň",
+    "daysss": "Deň",
     "hours": "Hodín",
     "hourss": "Hodiny",
     "hoursss": "Hodina",
@@ -23,5 +24,15 @@
     "seconds": "Sekúnd",
     "secondss": "Sekundy",
     "secondsss": "Sekunda"
+  },
+  "program": {
+    "title": "Program",
+    "transport-there": "XX:XX Autobus z hotela do kostola",
+    "church": "15:00 Sobáš v kostole",
+    "congratulations": "Gratulácie pred kostolom",
+    "transport-back": "YY:YY Presun na hostinu",
+    "welcome": "Uvítanie pred sálou",
+    "first-dance": "Prvý svadobný tanec",
+    "cepcenie": "Čepčenie a Redový tanec"
   }
 }

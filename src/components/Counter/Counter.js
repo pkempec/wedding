@@ -18,6 +18,11 @@ const Counter = () => {
       if (days === 1) {
         tDays = t('counter.dayss');
       }
+      if (days < 5 && days > 1) {
+        tDays = t('counter.dayss');
+      } else if (hours === 1) {
+        tDays = t('counter.daysss');
+      }
       if (hours < 5 && hours > 1) {
         tHours = t('counter.hourss');
       } else if (hours === 1) {

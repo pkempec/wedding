@@ -10,18 +10,19 @@
   "info": {
     "message": "Мы будем рады, если вместо букетов вы подарите нам лотерейный билет"
   },
-  "counter": {
-    "message": "Уже скоро ...",
+  "counter" : {
+    "message": "Уже скоро...",
     "days": "Дней",
-    "dayss": "Дней",
+    "dayss":"Дня",
+    "daysss": "День",
     "hours": "Часов",
-    "hourss": "Часов",
-    "hoursss": "Часов",
+    "hourss": "Часа",
+    "hoursss": "Час",
     "minutes": "Минут",
-    "minutess": "Минут",
-    "minutesss": "Минут",
+    "minutess": "Минуты",
+    "minutesss": "Минута",
     "seconds": "Секунд",
-    "secondss": "Секунд",
-    "secondsss": "Секунд"
+    "secondss": "Секунды",
+    "secondsss": "Секунда"
   }
 }
