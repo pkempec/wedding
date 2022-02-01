@@ -1,9 +1,20 @@
 .program-title {
   text-align: center;
   font-size: 30px;
+  margin-bottom: 0;
 }
 
 .program-content {
-  text-align: center;
+  margin: auto;
+  display: table;
+}
+
+.program-row{
+  display: table-row;
+}
+
+.program-cell {
+  display: table-cell;
+  padding: 8px;
   font-size: 20px;
 }

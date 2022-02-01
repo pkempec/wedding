@@ -27,10 +27,10 @@
   },
   "program": {
     "title": "Program",
-    "transport-there": "XX:XX Autobus z hotela do kostola",
-    "church": "15:00 Sobáš v kostole",
+    "transport-there": "Autobus z hotela do kostola",
+    "church": "Sobáš v kostole",
     "congratulations": "Gratulácie pred kostolom",
-    "transport-back": "YY:YY Presun na hostinu",
+    "transport-back": "Presun na hostinu",
     "welcome": "Uvítanie pred sálou",
     "first-dance": "Prvý svadobný tanec",
     "cepcenie": "Čepčenie a Redový tanec"

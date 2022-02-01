@@ -22,8 +22,8 @@ const App = () => {
       <Language setFontClass={setFontClass} />
       <Intro />
       <Program />
-      <Colors />
       <Info />
+      <Colors />
       <Counter />
       <Location center={center} church={church} celebration={celebration} zoom={zoom}/>
     </div>
