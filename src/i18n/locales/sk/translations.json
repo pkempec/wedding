@@ -34,5 +34,14 @@
     "welcome": "Uvítanie pred sálou",
     "first-dance": "Prvý svadobný tanec",
     "cepcenie": "Čepčenie a Redový tanec"
+  },
+  "church": {
+    "name": "Gréckokatolícky Chrám Zosnutia Presvätej Bohorodičky"
+  },
+  "celebration": {
+    "name": "Hotel Eurobus"
+  },
+  "location": {
+    "navigate": "Navigovať"
   }
 }
