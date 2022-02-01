@@ -21,9 +21,9 @@ const App = () => {
     <div className={'app backround ' + fontClass}>
       <Language setFontClass={setFontClass} />
       <Intro />
+      <Program />
       <Colors />
       <Info />
-      <Program />
       <Counter />
       <Location center={center} church={church} celebration={celebration} zoom={zoom}/>
     </div>
