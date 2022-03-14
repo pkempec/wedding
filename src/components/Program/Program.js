@@ -10,8 +10,8 @@ const Program = () => {
       <p className='program-title'>{t('program.title')}</p>
       <div className='program-content'>
         <div className='program-row'>
-          <div className='program-cell'>14:00</div>
-          <div className='program-cell'>{t('program.transport-there')}</div>
+          <div className='program-cell'>:14:45</div>
+          <div className='program-cell'>{t('program.ontime')}</div>
         </div>
         <div className='program-row'>
           <div className='program-cell'>15:00</div>
