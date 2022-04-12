@@ -34,7 +34,7 @@ const Program = () => {
           <div className='program-cell'>{t('program.first-dance')}</div>
         </div>
         <div className='program-row'>
-          <div className='program-cell'>00:00~</div>
+          <div className='program-cell'>23:30~</div>
           <div className='program-cell'>{t('program.cepcenie')}</div>
         </div>
         <div className='program-row'>

@@ -10,6 +10,8 @@ const Intro = () => {
       <p className='intro-names'>{t('intro.name')}</p>
       <p className='intro-message'>{t('intro.message')}</p>
       <p className='intro-date'>{t('intro.date')}</p>
+      <p className='intro-church'>{t('intro.church')}</p>
+      <p className='intro-feast'>{t('intro.feast')}</p>
     </div>
   )
 }
