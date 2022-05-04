@@ -36,7 +36,12 @@
     "welcome": "Uvítanie pred sálou",
     "first-dance": "Prvý svadobný tanec",
     "cepcenie": "Čepčenie a Redový tanec",
-    "party": "Zábava až do rána"
+    "party": "Zábava až do rána",
+    "photo": "Spoločné fotenie na terase",
+    "food": "Predjedlo a Polievka",
+    "flower": "Hádzanie kytice",
+    "photos": "Spoločné fotenie",
+    "cake": "Krájanie torty"
   },
   "church": {
     "name": "Gréckokatolícky Chrám Zosnutia Presvätej Bohorodičky"

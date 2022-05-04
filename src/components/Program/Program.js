@@ -26,12 +26,32 @@ const Program = () => {
           <div className='program-cell'>{t('program.transport-back')}</div>
         </div>
         <div className='program-row'>
-          <div className='program-cell'>17:10~</div>
+          <div className='program-cell'>17:15~</div>
           <div className='program-cell'>{t('program.welcome')}</div>
         </div>
         <div className='program-row'>
+          <div className='program-cell'>17:30~</div>
+          <div className='program-cell'>{t('program.photo')}</div>
+        </div>
+        <div className='program-row'>
           <div className='program-cell'>18:00~</div>
+          <div className='program-cell'>{t('program.food')}</div>
+        </div>
+        <div className='program-row'>
+          <div className='program-cell'>18:45~</div>
           <div className='program-cell'>{t('program.first-dance')}</div>
+        </div>
+        <div className='program-row'>
+          <div className='program-cell'>21:00~</div>
+          <div className='program-cell'>{t('program.flower')}</div>
+        </div>
+        <div className='program-row'>
+          <div className='program-cell'>21:30~</div>
+          <div className='program-cell'>{t('program.photos')}</div>
+        </div>
+        <div className='program-row'>
+          <div className='program-cell'>22:15~</div>
+          <div className='program-cell'>{t('program.cake')}</div>
         </div>
         <div className='program-row'>
           <div className='program-cell'>23:30~</div>
