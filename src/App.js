@@ -8,6 +8,7 @@ import Location from './components/Location/Location';
 import Program from './components/Program/Program';
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
+import Instagram from './components/Instagram/Instagram';
 
 const App = () => {
 
@@ -36,6 +37,7 @@ const App = () => {
       <Program />
       <Info />
       <Colors />
+      <Instagram />
       <Counter />
       <Location center={center} church={church} celebration={celebration} zoom={zoom}/>
     </div>

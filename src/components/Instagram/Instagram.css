@@ -1,0 +1,21 @@
+.instagram-content {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.instagram-content a {
+  color: Black;;
+  text-decoration: none;
+}
+
+.instagram {
+  display: inline-block;
+  vertical-align: top;
+  text-indent: -9999px;
+  width: 35px;
+  height: 35px;
+  background: url("../../../public/instagram.svg");
+  background-size: 35px 35px;
+}
+
