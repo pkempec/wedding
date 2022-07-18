@@ -1,7 +1,8 @@
 .instagram-content {
-  margin-top: 30px;
+  margin-top: 0px;
   text-align: center;
-  font-size: 30px;
+  font-size: 15px;
+  padding: 15px 30px;
 }
 
 .instagram-content a {
@@ -13,9 +14,17 @@
   display: inline-block;
   vertical-align: top;
   text-indent: -9999px;
-  width: 35px;
-  height: 35px;
+  width: 20px;
+  height: 20px;
   background: url("../../../public/instagram.svg");
-  background-size: 35px 35px;
+  background-size: 20px 20px;
 }
 
+@media only screen and (max-width: 1000px) {
+  .instagram-content {
+    margin-top: 0;
+    text-align: center;
+    font-size: 15px;
+    padding: 10px 15px;
+  }
+}

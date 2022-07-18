@@ -1,0 +1,19 @@
+.thanks-content {
+  background: #fff;
+  /* padding: 15px 30px; */
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 30px;
+  mix-blend-mode: screen;
+}
+.thanks-info {
+  font-size: 70px;
+  margin: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+  .thanks-info {
+    font-size: 50px;
+    margin: 0;
+  }
+}

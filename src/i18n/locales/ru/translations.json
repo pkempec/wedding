@@ -1,55 +1,8 @@
 {
-  "intro": {
-    "name": "Дарья & Патрик",
-    "message": "Свадьба состоится",
-    "church": "Венчание: Gréckokatolícky Chrám Zosnutia Presvätej Bohorodičky - Trebišov",
-    "feast": "Банкет: Hotel Eurobus - Zemplínska Šírava",
-    "date": "21 мая 2022 в 15:00"
+  "thanks": {
+    "info": "Спасибо"
   },
-  "colors": {
-    "title": "Цвета свадьбы"
-  },
-  "info": {
-    "message": "Мы будем рады, если вместо букетов вы подарите нам лотерейный билет"
-  },
-  "counter" : {
-    "message": "Уже скоро...",
-    "days": "Дней",
-    "dayss":"Дня",
-    "daysss": "День",
-    "hours": "Часов",
-    "hourss": "Часа",
-    "hoursss": "Час",
-    "minutes": "Минут",
-    "minutess": "Минуты",
-    "minutesss": "Минута",
-    "seconds": "Секунд",
-    "secondss": "Секунды",
-    "secondsss": "Секунда"
-  },
-  "program": {
-    "title": "Программа дня",
-    "ontime": "Встреча перед храмом",
-    "church": "Бракосочетание в храме",
-    "congratulations": "Поздравления перед храмом",
-    "transport-back": "Перемещение на место празднования",
-    "welcome": "Приветствие",
-    "first-dance": "Первый свадебный танец",
-    "cepcenie": "Чепчение и Рядовый танец",
-    "party": "Вечеринка до утра",
-    "photo": "Совместная фотосессия на террасе",
-    "food": "Подача закусок",
-    "flower": "Бросание букета невесты",
-    "photos": "Совместная фотосессия с каждым гостем",
-    "cake": "Разрезание торта"
-  },
-  "church": {
-    "name": "Gréckokatolícky Chrám Zosnutia Presvätej Bohorodičky"
-  },
-  "celebration": {
-    "name": "Hotel Eurobus"
-  },
-  "location": {
-    "navigate": "Навигация"
+  "photo": {
+    "info": "фото"
   }
 }

@@ -1,69 +1,168 @@
 .backround {
-  background: url("../public/background-1-cut.png");
-  background-repeat: no-repeat;
-  background-position: top center;
-  background-size: 100%;
+  width: 100%;
+  height: 100vh;
+  /* transform: scale(0.5, 0.5); */
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-weight: 1000;
+  font-family: 'Poppins', sans-serif;
 }
 
-/* .backround {
-  background: url("../public/leaf-cut.png"), url("../public/background.png");
-  background-repeat: no-repeat;
-  background-position: 15% 0%, center center;
-  background-size: 500px,  cover;
+.background-image-0 {
+  background: url("../public/photo/0.jpg");
+  background-size: cover;
+}
+.background-image-1 {
+  background: url("../public/photo/1.jpg");
+  background-size: cover;
+}
+.background-image-2 {
+  background: url("../public/photo/2.jpg");
+  background-size: cover;
+}
+.background-image-3 {
+  background: url("../public/photo/3.jpg");
+  background-size: cover;
+}
+.background-image-4 {
+  background: url("../public/photo/4.jpg");
+  background-size: cover;
+}
+.background-image-5 {
+  background: url("../public/photo/5.jpg");
+  background-size: cover;
+}
+.background-image-6 {
+  background: url("../public/photo/6.jpg");
+  background-size: cover;
+}
+.background-image-7 {
+  background: url("../public/photo/7.jpg");
+  background-size: cover;
+}
+.background-image-8 {
+  background: url("../public/photo/8.jpg");
+  background-size: cover;
+}
+.background-image-9 {
+  background: url("../public/photo/9.jpg");
+  background-size: cover;
+}
+.background-image-10 {
+  background: url("../public/photo/10.jpg");
+  background-size: cover;
+}
+.background-image-11 {
+  background: url("../public/photo/11.jpg");
+  background-size: cover;
+}
+.background-image-12 {
+  background: url("../public/photo/12.jpg");
+  background-size: cover;
+}
+.background-image-13 {
+  background: url("../public/photo/13.jpg");
+  background-size: cover;
+}
+.background-image-14 {
+  background: url("../public/photo/14.jpg");
+  background-size: cover;
 }
 
-@media only screen and (max-width: 1600px) {
-  .backround {
-    background-size: 400px, cover;
+.links {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.message {
+  position: relative;
+  top: -30%;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900');
+
+
+@media only screen and (max-width: 800px) {
+  .background-image-1 {
+    background: url("../public/photo/0.jpg");
+    background-size: cover;
+    background-position: 800px;
   }
-}
+  .background-image-1 {
+    background: url("../public/photo/1.jpg");
+    background-size: cover;
+    background-position: 830px;
 
-@media only screen and (max-width: 1400px) {
-  .backround {
-    background-size: 300px, cover;
   }
-}
+  .background-image-2 {
+    background: url("../public/photo/2.jpg");
+    background-size: cover;
+    background-position: 860px;
 
-@media only screen and (max-width: 1200px) {
-  .backround {
-    background-position: 5% 0%, center center;
-    background-size: 300px, cover;
   }
-}
+  .background-image-3 {
+    background: url("../public/photo/3.jpg");
+    background-size: cover;
+    background-position: 770px;
 
-
-@media only screen and (max-width: 700px) {
-  .backround {
-    background-size: 200px, cover;
   }
-}
+  .background-image-4 {
+    background: url("../public/photo/4.jpg");
+    background-size: cover;
+    background-position: 850px;
 
-@media only screen and (max-width: 400px) {
-  .backround {
-    background-size: 150px, cover;
   }
-} */
+  .background-image-5 {
+    background: url("../public/photo/5.jpg");
+    background-size: cover;
+    background-position: 730px;
 
-.sk-font {
-  /* font-family: 'DancingScript'; */
-  font-family: 'CaveatScript';
-}
-
-.ru-font {
-  /* font-family: 'BadScript'; */
-  font-family: 'CaveatScript';
-}
-
-@font-face {
-  font-family: 'DancingScript';
-  src: url('../public/fonts/dancing-script/DancingScript-Regular.ttf')  format('truetype');
-}
-
-@font-face {
-  font-family: 'BadScript';
-  src: url('../public/fonts/bad-script/BadScript-Regular.ttf')  format('truetype');
-}
-@font-face {
-  font-family: 'CaveatScript';
-  src: url('../public/fonts/caveat/Caveat-VariableFont_wght.ttf')  format('truetype');
+  }
+  .background-image-6 {
+    background: url("../public/photo/6.jpg");
+    background-size: cover;
+    background-position: 700px;
+  }
+  .background-image-7 {
+    background: url("../public/photo/7.jpg");
+    background-size: cover;
+    background-position: 840px;
+  }
+  .background-image-8 {
+    background: url("../public/photo/8.jpg");
+    background-size: cover;
+    background-position: 850px;
+  }
+  .background-image-9 {
+    background: url("../public/photo/9.jpg");
+    background-size: cover;
+    background-position: 700px;
+  }
+  .background-image-10 {
+    background: url("../public/photo/10.jpg");
+    background-size: cover;
+    background-position: 750px;
+  }
+  .background-image-11 {
+    background: url("../public/photo/11.jpg");
+    background-size: cover;
+    background-position: 800px;
+  }
+  .background-image-12 {
+    background: url("../public/photo/12.jpg");
+    background-size: cover;
+    background-position: 710px;
+  }
+  .background-image-13 {
+    background: url("../public/photo/13.jpg");
+    background-size: cover;
+    background-position: 750px;
+  }
+  .background-image-14 {
+    background: url("../public/photo/14.jpg");
+    background-size: cover;
+    background-position: 820px;
+  }
 }

@@ -17,21 +17,8 @@ const Language = ({setFontClass}) => {
     i18n.changeLanguage(lang);
   }, [i18n, setFontClass]);
 
-
-  const changeLanguage = (e) => {
-    if (e.target.value.includes('ru')) {
-      setFontClass('ru-font');
-    } else {
-      setFontClass('sk-font');
-    }
-    i18n.changeLanguage(e.target.value);
-  }
-
   return (
-    <div className='lang'>
-      <button onClick={changeLanguage} value='sk' className='lang-link-button'>SK</button>
-      <button onClick={changeLanguage} value='ru'className='lang-link-button'>RU</button>
-    </div>
+    <div className='hide'/>
   );
 };
 

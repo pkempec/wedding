@@ -1,55 +1,8 @@
 {
-  "intro": {
-    "name": "Daria & Patrik",
-    "message": "berieme sa",
-    "church": "Obrad: Gréckokatolícky Chrám Zosnutia Presvätej Bohorodičky - Trebišov",
-    "feast": "Hostina: Hotel Eurobus - Zemplínska Šírava",
-    "date": "21. Mája 2022 o 15:00"
+  "thanks": {
+    "info": "Ďakujeme"
   },
-  "colors": {
-    "title": "Farby Svadby"
-  },
-  "info": {
-    "message": "Radšej ako kvet príjmeme výherný žreb."
-  },
-  "counter" : {
-    "message": "Už čoskoro ...",
-    "days": "Dní",
-    "dayss": "Deň",
-    "daysss": "Deň",
-    "hours": "Hodín",
-    "hourss": "Hodiny",
-    "hoursss": "Hodina",
-    "minutes": "Minút",
-    "minutess": "Minúty",
-    "minutesss": "Minúta",
-    "seconds": "Sekúnd",
-    "secondss": "Sekundy",
-    "secondsss": "Sekunda"
-  },
-  "program": {
-    "title": "Program",
-    "ontime": "Uvítanie pred kostolom",
-    "church": "Sobáš v kostole",
-    "congratulations": "Gratulácie pred kostolom",
-    "transport-back": "Presun na hostinu",
-    "welcome": "Uvítanie pred sálou",
-    "first-dance": "Prvý svadobný tanec",
-    "cepcenie": "Čepčenie a Redový tanec",
-    "party": "Zábava až do rána",
-    "photo": "Spoločné fotenie na terase",
-    "food": "Predjedlo a Polievka",
-    "flower": "Hádzanie kytice",
-    "photos": "Spoločné fotenie",
-    "cake": "Krájanie torty"
-  },
-  "church": {
-    "name": "Gréckokatolícky Chrám Zosnutia Presvätej Bohorodičky"
-  },
-  "celebration": {
-    "name": "Hotel Eurobus"
-  },
-  "location": {
-    "navigate": "Navigovať"
+  "photo": {
+    "info": "Fotky"
   }
 }
