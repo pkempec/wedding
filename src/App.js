@@ -14,7 +14,7 @@ const App = () => {
     const interval = setInterval(() => {
       console.log('This will run every second!');
       setBackgroundImageClass('background-image-' + Math.floor(Math.random() * 15))
-    }, 2000);
+    }, 7000);
     return () => clearInterval(interval);
   }, []);
 
