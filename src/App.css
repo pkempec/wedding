@@ -12,22 +12,27 @@
 .background-image-0 {
   background: url("../public/photo/0.jpg");
   background-size: cover;
+  background-position: 0px -150px;
 }
 .background-image-1 {
   background: url("../public/photo/1.jpg");
   background-size: cover;
+  background-position: 0px -150px;
 }
 .background-image-2 {
   background: url("../public/photo/2.jpg");
   background-size: cover;
+  background-position: 0px -100px;
 }
 .background-image-3 {
   background: url("../public/photo/3.jpg");
   background-size: cover;
+  background-position: 0px -150px;
 }
 .background-image-4 {
   background: url("../public/photo/4.jpg");
   background-size: cover;
+  background-position: 0px -150px;
 }
 .background-image-5 {
   background: url("../public/photo/5.jpg");
@@ -40,6 +45,7 @@
 .background-image-7 {
   background: url("../public/photo/7.jpg");
   background-size: cover;
+  background-position: 0px -150px;
 }
 .background-image-8 {
   background: url("../public/photo/8.jpg");
@@ -52,22 +58,22 @@
 .background-image-10 {
   background: url("../public/photo/10.jpg");
   background-size: cover;
+  background-position: 0px -150px;
 }
 .background-image-11 {
   background: url("../public/photo/11.jpg");
   background-size: cover;
+  background-position: 0px -150px;
 }
 .background-image-12 {
   background: url("../public/photo/12.jpg");
   background-size: cover;
+  background-position: 0px -150px;
 }
 .background-image-13 {
   background: url("../public/photo/13.jpg");
   background-size: cover;
-}
-.background-image-14 {
-  background: url("../public/photo/14.jpg");
-  background-size: cover;
+  background-position: 0px -150px;
 }
 
 .links {
@@ -85,7 +91,7 @@
 
 
 @media only screen and (max-width: 800px) {
-  .background-image-1 {
+  .background-image-0 {
     background: url("../public/photo/0.jpg");
     background-size: cover;
     background-position: 800px;
@@ -159,10 +165,5 @@
     background: url("../public/photo/13.jpg");
     background-size: cover;
     background-position: 750px;
-  }
-  .background-image-14 {
-    background: url("../public/photo/14.jpg");
-    background-size: cover;
-    background-position: 820px;
   }
 }
