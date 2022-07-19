@@ -1,3 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900');
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  background: #fff;
+}
+
+.message {
+  position: relative;
+  top: -30%;
+}
+
 .backround {
   width: 100%;
   height: 100vh;
@@ -12,27 +25,22 @@
 .background-image-0 {
   background: url("../public/photo/0.jpg");
   background-size: cover;
-  background-position: 0px -150px;
 }
 .background-image-1 {
   background: url("../public/photo/1.jpg");
   background-size: cover;
-  background-position: 0px -150px;
 }
 .background-image-2 {
   background: url("../public/photo/2.jpg");
   background-size: cover;
-  background-position: 0px -100px;
 }
 .background-image-3 {
   background: url("../public/photo/3.jpg");
   background-size: cover;
-  background-position: 0px -150px;
 }
 .background-image-4 {
   background: url("../public/photo/4.jpg");
   background-size: cover;
-  background-position: 0px -150px;
 }
 .background-image-5 {
   background: url("../public/photo/5.jpg");
@@ -45,7 +53,6 @@
 .background-image-7 {
   background: url("../public/photo/7.jpg");
   background-size: cover;
-  background-position: 0px -150px;
 }
 .background-image-8 {
   background: url("../public/photo/8.jpg");
@@ -58,109 +65,186 @@
 .background-image-10 {
   background: url("../public/photo/10.jpg");
   background-size: cover;
-  background-position: 0px -150px;
 }
 .background-image-11 {
   background: url("../public/photo/11.jpg");
   background-size: cover;
-  background-position: 0px -150px;
 }
 .background-image-12 {
   background: url("../public/photo/12.jpg");
   background-size: cover;
-  background-position: 0px -150px;
 }
 .background-image-13 {
   background: url("../public/photo/13.jpg");
   background-size: cover;
-  background-position: 0px -150px;
 }
 
-.links {
-  display: flex;
-  justify-content: space-between;
-  background: #fff;
+@media (min-aspect-ratio: 15/9) and (min-width: 850px) {
+  .background-image-0 {
+    background: url("../public/photo/0.jpg");
+    background-size: cover;
+    background-position: 0px -150px;
+  }
+
+  .background-image-1 {
+    background: url("../public/photo/1.jpg");
+    background-size: cover;
+    background-position: 0px -150px;
+  }
+
+  .background-image-2 {
+    background: url("../public/photo/2.jpg");
+    background-size: cover;
+    background-position: 0px -100px;
+  }
+
+  .background-image-3 {
+    background: url("../public/photo/3.jpg");
+    background-size: cover;
+    background-position: 0px -150px;
+  }
+
+  .background-image-4 {
+    background: url("../public/photo/4.jpg");
+    background-size: cover;
+    background-position: 0px -150px;
+  }
+
+  .background-image-5 {
+    background: url("../public/photo/5.jpg");
+    background-size: cover;
+  }
+
+  .background-image-6 {
+    background: url("../public/photo/6.jpg");
+    background-size: cover;
+  }
+
+  .background-image-7 {
+    background: url("../public/photo/7.jpg");
+    background-size: cover;
+    background-position: 0px -150px;
+  }
+
+  .background-image-8 {
+    background: url("../public/photo/8.jpg");
+    background-size: cover;
+  }
+
+  .background-image-9 {
+    background: url("../public/photo/9.jpg");
+    background-size: cover;
+  }
+
+  .background-image-10 {
+    background: url("../public/photo/10.jpg");
+    background-size: cover;
+    background-position: 0px -150px;
+  }
+
+  .background-image-11 {
+    background: url("../public/photo/11.jpg");
+    background-size: cover;
+    background-position: 0px -150px;
+  }
+
+  .background-image-12 {
+    background: url("../public/photo/12.jpg");
+    background-size: cover;
+    background-position: 0px -150px;
+  }
+
+  .background-image-13 {
+    background: url("../public/photo/13.jpg");
+    background-size: cover;
+    background-position: 0px -150px;
+  }
 }
 
-.message {
-  position: relative;
-  top: -30%;
-}
-
-@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900');
-
-
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) and (min-height: 560px) {
   .background-image-0 {
     background: url("../public/photo/0.jpg");
     background-size: cover;
     background-position: 800px;
   }
+
   .background-image-1 {
     background: url("../public/photo/1.jpg");
     background-size: cover;
     background-position: 830px;
 
   }
+
   .background-image-2 {
     background: url("../public/photo/2.jpg");
     background-size: cover;
     background-position: 860px;
 
   }
+
   .background-image-3 {
     background: url("../public/photo/3.jpg");
     background-size: cover;
     background-position: 770px;
 
   }
+
   .background-image-4 {
     background: url("../public/photo/4.jpg");
     background-size: cover;
     background-position: 850px;
 
   }
+
   .background-image-5 {
     background: url("../public/photo/5.jpg");
     background-size: cover;
     background-position: 730px;
 
   }
+
   .background-image-6 {
     background: url("../public/photo/6.jpg");
     background-size: cover;
     background-position: 700px;
   }
+
   .background-image-7 {
     background: url("../public/photo/7.jpg");
     background-size: cover;
     background-position: 840px;
   }
+
   .background-image-8 {
     background: url("../public/photo/8.jpg");
     background-size: cover;
     background-position: 850px;
   }
+
   .background-image-9 {
     background: url("../public/photo/9.jpg");
     background-size: cover;
     background-position: 700px;
   }
+
   .background-image-10 {
     background: url("../public/photo/10.jpg");
     background-size: cover;
     background-position: 750px;
   }
+
   .background-image-11 {
     background: url("../public/photo/11.jpg");
     background-size: cover;
     background-position: 800px;
   }
+
   .background-image-12 {
     background: url("../public/photo/12.jpg");
     background-size: cover;
     background-position: 710px;
   }
+
   .background-image-13 {
     background: url("../public/photo/13.jpg");
     background-size: cover;
