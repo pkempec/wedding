@@ -20,6 +20,8 @@
   align-items: center;
   font-weight: 1000;
   font-family: 'Poppins', sans-serif;
+  transition: background 3s ease-in 2s;
+
 }
 
 .background-image-0 {
