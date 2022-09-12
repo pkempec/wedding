@@ -4,6 +4,7 @@ import React, { useState, useEffect } from 'react';
 import Instagram from './components/Instagram/Instagram';
 import Thanks from './components/Thanks/Thanks';
 import Photo from './components/Photo/Photo';
+import Video from './components/Video/Video';
 
 const App = () => {
 
@@ -25,6 +26,7 @@ const App = () => {
         <Thanks />
         <div className='links'>
           <Photo />
+          <Video />
           <Instagram />
         </div>
       </div>

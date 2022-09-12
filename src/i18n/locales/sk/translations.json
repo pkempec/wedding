@@ -4,5 +4,8 @@
   },
   "photo": {
     "info": "Fotky"
+  },
+  "video": {
+    "info": "Video"
   }
 }

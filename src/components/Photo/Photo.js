@@ -10,7 +10,7 @@ const Photo = () => {
     <div className='photo-content'>
       <span className='photo'/>
       {/* "" */}
-      <a href="https://photos.app.goo.gl/ms4qRsew3UtncfTy7">{t('photo.info')}</a>
+      <a href="https://photos.app.goo.gl/ms4qRsew3UtncfTy7"> {t('photo.info')}</a>
     </div>
   )
 };
